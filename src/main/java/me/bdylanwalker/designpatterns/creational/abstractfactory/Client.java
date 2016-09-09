@@ -26,6 +26,7 @@ public class Client {
 
     public void run(String... args) {
         logger.info("BEGIN");
+        logger.info("Abstract Factory");
         AbstractFactory f;
         AbstractProductA pa;
         AbstractProductB pb;
