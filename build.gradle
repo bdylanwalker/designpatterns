@@ -44,7 +44,7 @@ mainClassName = 'me.bdylanwalker.designpatterns.Main'
 }
 
 // Tasks
-task wrap(type:Wrapper, description:"create a gradlew") {
+task wrapper(type:Wrapper, description:"create a gradlew") {
     gradleVersion = '2.8'
 }
 
