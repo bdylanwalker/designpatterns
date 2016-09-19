@@ -10,8 +10,16 @@ public class Main {
         logger.info("BEGIN");
         try {
 
-            me.bdylanwalker.designpatterns.creational.abstractfactory.Client.main( "");
+            //# CREATIONAL
 
+            //## Abstract Factory
+            me.bdylanwalker.designpatterns.creational.abstractfactory.Client.main( args);
+
+            //## Builder
+            me.bdylanwalker.designpatterns.creational.builder.Client.main( args);
+
+            //## Factory Method
+            me.bdylanwalker.designpatterns.creational.factorymethod.Client.main( args);
 
 
         } finally {
