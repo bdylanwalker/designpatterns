@@ -21,6 +21,9 @@ public class Main {
             //## Factory Method
             me.bdylanwalker.designpatterns.creational.factorymethod.Client.main( args);
 
+            //## Prototype
+            me.bdylanwalker.designpatterns.creational.prototype.Client.main( args);
+
 
         } finally {
             logger.info("END");
